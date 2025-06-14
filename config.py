@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SukoonOfficial/SukoonMusic",
+    "https://github.com",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SukoonUpdates")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/SukoonChats")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+AQrjMN-LaYQwYzM1")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/+AQrjMN-LaYQwYzM1")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -81,10 +81,10 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://i.ibb.co/ydLZ5RN/IMG-20240316-031033-252.jpg"
+    "START_IMG_URL", "https://i.ibb.co/KcLKyFMP/IMG-20250614-110814-569.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://i.ibb.co/ydLZ5RN/IMG-20240316-031033-252.jpg"
+    "PING_IMG_URL", "https://i.ibb.co/KcLKyFMP/IMG-20250614-110814-569.jpg"
 )
 PLAYLIST_IMG_URL = "https://i.ibb.co/ydLZ5RN/IMG-20240316-031033-252.jpg"
 STATS_IMG_URL = "https://i.ibb.co/ydLZ5RN/IMG-20240316-031033-252.jpg"
